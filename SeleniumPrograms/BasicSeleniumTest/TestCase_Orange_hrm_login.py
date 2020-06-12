@@ -8,7 +8,7 @@ import HtmlTestRunner
 class OrangeHTMLTestRunner(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome('/Users/pretty.sanwale/PycharmProjects/SeleniumPrograms/driverfile/chromedriver2')
+        cls.driver = webdriver.Chrome('/Users/pretty.sanwale/PycharmProjects/SeleniumPrograms/driverfile/chromedriver')
         cls.driver.maximize_window()
 
     def test001_launch_page(self):

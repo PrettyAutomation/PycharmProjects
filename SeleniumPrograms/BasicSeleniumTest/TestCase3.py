@@ -5,7 +5,7 @@ from selenium import webdriver
 
 class TestingSetupClass(unittest.TestCase):
     global driver
-    driver = webdriver.Chrome('/Users/pretty.sanwale/PycharmProjects/SeleniumPrograms/driverfile/chromedriver2')
+    driver = webdriver.Chrome('/Users/pretty.sanwale/PycharmProjects/SeleniumPrograms/driverfile/chromedriver')
 
     @classmethod
     def setUpClass(cls):
