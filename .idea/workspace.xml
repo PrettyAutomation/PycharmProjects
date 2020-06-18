@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36edaba4-a5c1-4cef-93ba-e9648f35a446" name="Default Changelist" comment="first Python Selenium commit">
-      <change beforePath="$USER_HOME$/Learning/BasicPythonProgram/Input/arrayInput.py" beforeDir="false" afterPath="$USER_HOME$/Learning/BasicPythonProgram/Input/arrayInput.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Learning/BasicPythonProgram/testcases/InterviewProgram.py" beforeDir="false" afterPath="$USER_HOME$/Learning/BasicPythonProgram/testcases/InterviewProgram.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Learning/BasicPythonProgram/testcases/TestCase02.py" beforeDir="false" afterPath="$USER_HOME$/Learning/BasicPythonProgram/testcases/TestCase02.py" afterDir="false" />
-      <change beforePath="$USER_HOME$/Learning/BasicPythonProgram/utilclass/Util02.py" beforeDir="false" afterPath="$USER_HOME$/Learning/BasicPythonProgram/utilclass/Util02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PytestProject/venv/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PytestProject/venv/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PytestProject/venv/lib/python3.7/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PytestProject/venv/lib/python3.7/site-packages/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PytestProject/venv/lib/python3.7/site-packages/pip-10.0.1-py3.7.egg/__init__.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Learning/PythonLearning/Functions/functions.py" beforeDir="false" afterPath="$USER_HOME$/Learning/PythonLearning/Functions/functions.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Learning/PythonLearning/Operator/PracticeOperator.py" beforeDir="false" afterPath="$USER_HOME$/Learning/PythonLearning/Operator/PracticeOperator.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Learning/PythonLearning/Variables/variables.py" beforeDir="false" afterPath="$USER_HOME$/Learning/PythonLearning/Variables/variables.py" afterDir="false" />
@@ -14,13 +15,7 @@
       <change beforePath="$USER_HOME$/Learning/PythonLearning/controlblocks/Q1_i.py" beforeDir="false" afterPath="$USER_HOME$/Learning/PythonLearning/controlblocks/Q1_i.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Learning/PythonLearning/controlblocks/ifelse.py" beforeDir="false" afterPath="$USER_HOME$/Learning/PythonLearning/controlblocks/ifelse.py" afterDir="false" />
       <change beforePath="$USER_HOME$/Learning/PythonLearning/controlblocks/loops.py" beforeDir="false" afterPath="$USER_HOME$/Learning/PythonLearning/controlblocks/loops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/pretty_sanwale.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/pretty_sanwale.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PomBasedProj/testcases/logintest.py" beforeDir="false" afterPath="$PROJECT_DIR$/PomBasedProj/testcases/logintest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumPrograms/BasicSeleniumTest/TestCase_Orange_hrm_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPrograms/BasicSeleniumTest/TestCase_Orange_hrm_login.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +27,17 @@
     <favorites_list name="PycharmProjects" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PytestProject/SeleniumWithPytest/TestCases/test_org_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,7 +56,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/Learning/BasicPythonProgram" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -127,40 +132,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicPythonProgram" type="462c0819:PsiDirectoryNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BasicPythonProgram" type="462c0819:PsiDirectoryNode" />
-              <item name="testcases" type="462c0819:PsiDirectoryNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="PytestProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="PytestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="SeleniumWithPytest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="PytestProject" type="462c0819:PsiDirectoryNode" />
+              <item name="SeleniumWithPytest" type="462c0819:PsiDirectoryNode" />
+              <item name="TestCases" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$USER_HOME$/PytestProject/SeleniumWithPytest/TestCases" />
+      <recent name="$USER_HOME$/PythonProgramProj/StringProgarm" />
+      <recent name="$USER_HOME$/PythonProgramProj/StringProgarm/Utilclasses" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$USER_HOME$/PytestProject/SeleniumWithPytest" />
       <recent name="$PROJECT_DIR$/PomBasedProj/driverfile" />
       <recent name="$PROJECT_DIR$/SeleniumPrograms/driverfile" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$USER_HOME$/PytestProject/SeleniumWithPytest/TestCases" />
-      <recent name="$USER_HOME$/PythonProgramProj/StringProgarm" />
-      <recent name="$USER_HOME$/PythonProgramProj/StringProgarm/Utilclasses" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -239,6 +258,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="PythonLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sample (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PytestProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -281,6 +321,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="PythonLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittest in TestCase1.py" type="tests" factoryName="Unittests">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -307,6 +358,38 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/SeleniumPrograms/BasicSeleniumTest/TestCase2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="PythonLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <module name="PythonLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -386,7 +469,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="957" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.20735383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49923897" visible="true" weight="0.20735383" />
       <window_info id="Structure" order="1" sideWeight="0.50076103" side_tool="true" weight="0.20735383" />
       <window_info id="Favorites" order="2" sideWeight="0.50076103" side_tool="true" weight="0.20735383" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -397,7 +480,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32873562" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" weight="0.32873562" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4996986" weight="0.36763006" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4996986" visible="true" weight="0.36763006" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015069" side_tool="true" weight="0.38728324" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32873562" />
       <window_info anchor="bottom" id="Messages" order="11" />
@@ -520,11 +603,6 @@
           <url>file://$PROJECT_DIR$/SeleniumPrograms/BasicSeleniumTest/TestCase3.py</url>
           <line>37</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/Learning/BasicPythonProgram/testcases/InterviewProgram.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -719,17 +797,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PytestProject/SeleniumWithPytest/TestCases/sample.py">
+    <entry file="file://$PROJECT_DIR$/PytestProject/SeleniumWithPytest/TestCases/sample.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/PytestProject/SeleniumWithPytest/TestCases/test_org_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -750,7 +821,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PytestProject/SeleniumWithPytest/TestCases/sample.md">
+    <entry file="file://$PROJECT_DIR$/PytestProject/SeleniumWithPytest/TestCases/sample.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="255">
@@ -770,16 +841,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumPrograms/BasicSeleniumTest/TestCase04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPrograms/BasicSeleniumTest/TestCase04.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -805,6 +867,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="112" column="4" selection-start-line="112" selection-start-column="4" selection-end-line="112" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PytestProject/SeleniumWithPytest/TestCases/test_org_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>

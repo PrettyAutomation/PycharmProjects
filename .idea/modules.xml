@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$USER_HOME$/Learning/BasicPythonProgram/.idea/BasicPythonProgram.iml" filepath="$USER_HOME$/Learning/BasicPythonProgram/.idea/BasicPythonProgram.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PycharmProjects.iml" filepath="$PROJECT_DIR$/.idea/PycharmProjects.iml" />
-      <module fileurl="file://$USER_HOME$/PytestProject/.idea/PytestProject.iml" filepath="$USER_HOME$/PytestProject/.idea/PytestProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PytestProject/.idea/PytestProject.iml" filepath="$PROJECT_DIR$/PytestProject/.idea/PytestProject.iml" />
       <module fileurl="file://$USER_HOME$/Learning/PythonLearning/.idea/PythonLearning.iml" filepath="$USER_HOME$/Learning/PythonLearning/.idea/PythonLearning.iml" />
       <module fileurl="file://$USER_HOME$/PythonProgramProj/.idea/PythonProgramProj.iml" filepath="$USER_HOME$/PythonProgramProj/.idea/PythonProgramProj.iml" />
     </modules>
