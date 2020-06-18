@@ -14,7 +14,8 @@ class OrangeHTMLTestRunner(unittest.TestCase):
     def test001_launch_page(self):
         self.driver.get('https://freecrm.com/')
         time.sleep(3)
-        self.assertEqual('Free CRM #1 cloud software for any business large or small', self.driver.title, 'title is not matching')
+        self.assertEqual('Free CRM #1 cloud software for any business large or small',
+                         self.driver.title, 'title is not matching')
 
     def test002_login_page(self):
         self.driver.get('https://freecrm.com/')

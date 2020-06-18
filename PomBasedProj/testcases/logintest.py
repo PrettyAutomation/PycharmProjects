@@ -6,12 +6,12 @@ from selenium.webdriver.support import expected_conditions as EC
 import time
 import sys
 sys.path.append('/Users/pretty.sanwale/PycharmProjects/PomBasedProj')
-from pageobjectfiles.LoginPage import LoginPage
+from PomBasedProj.pageobjectfiles.LoginPage import LoginPage
 
 
 class LoginTest(unittest.TestCase):
     url = "https://freecrm.com/"
-    driver = webdriver.Chrome('/Users/pretty.sanwale/PycharmProjects/PomBasedProj/driverfile/chromedriver2')
+    driver = webdriver.Chrome('/Users/pretty.sanwale/PycharmProjects/PomBasedProj/driverfile/chromedriver')
     username = "bewarepretty@gmail.com"
     password = "Active@2020"
     wait = WebDriverWait(driver, 10)
