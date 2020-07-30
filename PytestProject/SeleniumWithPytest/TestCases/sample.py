@@ -10,3 +10,4 @@ driver.find_element_by_id('btnLogin').click()
 driver.close()
 driver.quit()
 print('Test Passed')
+
